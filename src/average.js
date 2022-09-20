@@ -16,7 +16,7 @@ const average = (array) => {
   let divisao = array.length;
   if (array.length === 0) {
     return undefined;
-  } 
+  }
   for (let index = 0; index < array.length; index += 1) {
     resultado += array[index];
     if (typeof array[index] !== 'number') {
